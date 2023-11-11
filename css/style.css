@@ -394,7 +394,7 @@ section {
     right: -20px;
     width: 10px;
     height: 10px;
-    background: url('/img/burger-arrow.svg') no-repeat center;
+    background: url('../img/burger-arrow.svg') no-repeat center;
     background-size: contain;
 }
 
@@ -484,7 +484,7 @@ section {
 /* main-bunner start */
 
 .main-bunner {
-    background: url('/img/main-bunner.jpg') no-repeat center;
+    background: url('../img/main-bunner.jpg') no-repeat center;
     background-size: cover;
     height: 608px;
 
@@ -706,7 +706,7 @@ section {
 
 .main-advantages {
     padding: 105px 0;
-    background: #69D1FD url('/img/advantages-bg.png') no-repeat right;
+    background: #69D1FD url('../img/advantages-bg.png') no-repeat right;
     background-size: contain;
     margin-bottom: 0;
 }
@@ -774,7 +774,7 @@ section {
     transform: translateY(-50%);
     width: 78px;
     height: 10px;
-    background: url('/img/advantages-arrow.svg') no-repeat center;
+    background: url('../img/advantages-arrow.svg') no-repeat center;
     background-size: contain;
 }
 
@@ -797,7 +797,7 @@ section {
 
 .main-recommendations {
     padding: 100px 0;
-    background: url(/img/recommendations-bg.jpg) no-repeat center;
+    background: url('../img/recommendations-bg.jpg') no-repeat center;
 }
 
 .main-recommendations .section-title {
@@ -820,11 +820,11 @@ section {
 
 section .swiper-button-prev {
     left: var(--swiper-navigation-sides-offset,-10px);
-    background: url(/img/slider-prev.svg) no-repeat center;
+    background: url('../img/slider-prev.svg') no-repeat center;
 }
 section .swiper-button-next {
     right: var(--swiper-navigation-sides-offset,-10px);
-    background: url(/img/slider-prev.svg) no-repeat center;
+    background: url('../img/slider-prev.svg') no-repeat center;
     transform: rotate(180deg);
 }
 section .swiper-button-prev::after,
@@ -954,7 +954,7 @@ section .swiper-button-prev::after,
 /* services-advert start */
 
 .services-advert {
-    background: url('/img/advert-bg.jpg') no-repeat center;
+    background: url('../img/advert-bg.jpg') no-repeat center;
     background-size: cover;
     padding: 15px 0;
 }
@@ -1251,7 +1251,7 @@ section .swiper-button-prev::after,
 
 .main-reviews {
     padding: 100px 0 115px;
-    background: url('/img/reviews-bg.jpg') no-repeat center;
+    background: url('../img/reviews-bg.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -1341,7 +1341,7 @@ section .swiper-button-prev::after,
     transform: translateY(-50%);
     width: 25px;
     height: 17px;
-    background: url(/img/faq-arrow.svg) no-repeat center;
+    background: url(../img/faq-arrow.svg) no-repeat center;
     background-size: contain;
 }
 .faq-open .faq__question-title::after {
@@ -1412,7 +1412,7 @@ section .swiper-button-prev::after,
     transform: translateY(-50%);
     width: 162px;
     height: 4px;
-    background: url(/img/partnership-pointed.svg) no-repeat center;
+    background: url(../img/partnership-pointed.svg) no-repeat center;
 }
 .partnership__card:last-child .partnership__card-num::after {
     display: none;
@@ -1520,7 +1520,7 @@ section .swiper-button-prev::after,
 
 .about-bunner {
     position: relative;
-    background-image: url('/img/about-bunner.jpg');
+    background-image: url('../img/about-bunner.jpg');
 }
 
 .about-bunner .callback__modal-content {
@@ -1721,7 +1721,7 @@ section .swiper-button-prev::after,
 
 .description__tab-block.geography-block {
     padding: 100px 0;
-    background: url('/img/advantages-bg.png') no-repeat top right rgba(105, 209, 253, 1);
+    background: url('../img/advantages-bg.png') no-repeat top right rgba(105, 209, 253, 1);
 }
 
 .geography__block-text {
@@ -1783,7 +1783,7 @@ section .swiper-button-prev::after,
 
 .team__photo-section {
     padding: 100px 0 0;
-    background: url('/img/our-team-bg.jpg') no-repeat center;
+    background: url('../img/our-team-bg.jpg') no-repeat center;
 }
 
 .tab__section {
@@ -2088,7 +2088,7 @@ section .swiper-button-prev::after,
  
 /* Checked */
 .modal-checkbox input[type=checkbox]:checked + span:before {
-	background: url('/img/checkbox-ico.svg') no-repeat center #fff;
+	background: url('../img/checkbox-ico.svg') no-repeat center #fff;
 }
  
 /* Focus */
@@ -2239,7 +2239,7 @@ section .swiper-button-prev::after,
 
     .main-bunner {
         padding: 100px 0;
-        background-image: url('/img/main-bunner-adaptive.jpg');
+        background-image: url('../img/main-bunner-adaptive.jpg');
     }
 
     .bunner__text-item {
@@ -2389,7 +2389,7 @@ section .swiper-button-prev::after,
 
     .about-bunner {
         padding: 170px 0 60px;
-        background-image: url('/img/about-bunner-adaptive.jpg');
+        background-image: url('../img/about-bunner-adaptive.jpg');
     }
     .about-bunner .callback__modal-content {
         display: none;
