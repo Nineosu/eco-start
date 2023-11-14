@@ -94,6 +94,36 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    const studyingReviewsSlider = new Swiper('.studying-reviews-slider', {
+        direction: 'horizontal',
+        slidesPerView: 1,
+        loop: false,
+        spaceBetween: 30,
+
+        navigation: {
+          nextEl: '.studying-reviews-next',
+          prevEl: '.studying-reviews-prev',
+        },
+    });
+
+    const landingReviewsSlider = new Swiper('.landing-reviews-slider', {
+        direction: 'horizontal',
+        slidesPerView: 1,
+        loop: false,
+        spaceBetween: 30,
+
+        breakpoints: {
+            769: {
+                slidesPerView: 2,
+            }
+        },
+
+        navigation: {
+          nextEl: '.landing-reviews-next',
+          prevEl: '.landing-reviews-prev',
+        },
+    });
+
     // Fancybox
     Fancybox.bind("[data-fancybox]", {
         // Your custom options
