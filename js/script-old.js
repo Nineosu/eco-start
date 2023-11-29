@@ -124,15 +124,6 @@ document.addEventListener('DOMContentLoaded', () => {
         },
     });
 
-    // Protection animation
-    const showBtn = document.querySelector('.protection__show-btn'),
-          descText = document.querySelector('.protection__desc.hide-text');
-
-    showBtn.addEventListener('click', () => {
-        descText.classList.add('protections__desc-show');
-        showBtn.style.display = 'none';
-    });
-
     // Fancybox
     Fancybox.bind("[data-fancybox]", {
         // Your custom options
